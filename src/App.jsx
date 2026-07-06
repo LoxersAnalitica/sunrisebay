@@ -382,7 +382,7 @@ function Hero() {
                 Affordable Luxury Living<br />
                 <span className="text-gold" style={{ fontSize: '1.2em', fontWeight: '700', textShadow: '0 2px 10px rgba(0,0,0,0.5)' }}>Exclusive villas in a privileged natural environment</span>
               </h1>
-              <p style={{ color: '#fff', fontFamily: 'var(--font-sans)', fontSize: '1.15rem', fontWeight: '400', marginTop: '0.5rem', textShadow: '0 1px 5px rgba(0,0,0,0.4)' }}>From €399,000 + VAT</p>
+              <p style={{ color: '#fff', fontFamily: 'var(--font-sans)', fontSize: '1.15rem', fontWeight: '400', marginTop: '0.5rem', textShadow: '0 1px 5px rgba(0,0,0,0.4)' }}>From €405,000 + VAT</p>
             </div>
 
             <div className="mobile-only" style={{ marginTop: '1rem' }}>
