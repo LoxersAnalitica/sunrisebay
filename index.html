@@ -34,6 +34,21 @@
     gtag('config', 'AW-17420641796');
   </script>
 
+  <!-- Event snippet for Google Ads form submission conversion -->
+  <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+        'send_to': 'AW-17420641796/DPllCLna7MscEITM5_JA',
+        'event_callback': callback
+      });
+      return false;
+    }
+  </script>
   <!-- Meta Pixel Code -->
   <script>
     !function (f, b, e, v, n, t, s) {

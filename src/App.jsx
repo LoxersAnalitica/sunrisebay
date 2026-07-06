@@ -238,6 +238,9 @@ function Hero() {
         if (window.fbq) {
           window.fbq('track', 'Lead');
         }
+        if (window.gtag_report_conversion) {
+          window.gtag_report_conversion();
+        }
       } else {
         setStatus('error')
       }
@@ -746,6 +749,9 @@ function DossierModal({ isOpen, onClose }) {
         setStatus('success')
         if (window.fbq) {
           window.fbq('track', 'Lead');
+        }
+        if (window.gtag_report_conversion) {
+          window.gtag_report_conversion();
         }
         setTimeout(() => {
           onClose()
